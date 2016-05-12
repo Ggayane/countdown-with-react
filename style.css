@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background: #43484A;
+}
+
+.container{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 11px #000;
+    border-radius: 5px;
+}
+
+h1{
+	margin-top: 0;
+	text-align: center;
+	color: #009688;
+}
+
+.progressBar{
+	background: #CDDC39;
+    height: 20px;
+    box-sizing: border-box;
+    text-align: right;
+    padding: 5px;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;    
+    transition: all 1s;
+    text-shadow: 0px 0px 5px #000;
+}
+
+.progressBarWrapper{
+	border-radius: 10px;
+    overflow: hidden;
+    background: #E6E4E4;
+}
+
+.wrap{
+	margin-top: 20px;
+	text-align: center;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #9AA09A;
+    width: 200px;
+}
+
+.errorMsg{
+    display: block;
+    text-align: center;
+    color: #F44336;
+    font-size: 12px;
+    margin-top: 5px;
+}
