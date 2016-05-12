@@ -7,7 +7,7 @@ export default class App extends Component {
         super(props);
         this.state = {
             FirstDate: "5/10/2016",
-            EndDate: "5/31/2016",
+            EndDate: "5/13/2016",
             daysToAdd: 0,
             progressBarVlaue: 0,
             errorMsg: false
